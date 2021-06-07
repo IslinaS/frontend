@@ -1,0 +1,4 @@
+Data types in JS:
+  undefined, null, boolean, string, symbol, bigint, number, object
+Print to console:
+  console.log(objectsToBePrinted);
