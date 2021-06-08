@@ -20,9 +20,16 @@ Changing array to string:
 function (parameter) {
 } //processed value is undefined w/o return statement
 
-Equality:
+Comparison:
   == //embedded type conversion. 10 == "10" evaluates to true
   === //strict equality, no type conversion. 10 === "10" evaluates to false
   != //the opposite of ==. 1 != true gives false
   !== //the opposite of ===.
+  > < //auto type conversion.
+ 
+switch(val) { //used inside a function
+  case 1: //val === 1
+    ...
+  case 2:
+    ...
 
