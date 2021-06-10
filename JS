@@ -26,10 +26,15 @@ Comparison:
   != //the opposite of ==. 1 != true gives false
   !== //the opposite of ===.
   > < //auto type conversion.
- 
+
+Conditionals
 switch(val) { //used inside a function
-  case 1: //val === 1
+  case 1: //if (val === 1)
     ...
-  case 2:
+  case 2: //else if (val === 2)
     ...
+  default: //else
+    ...
+  }
+
 
