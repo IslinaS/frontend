@@ -36,5 +36,33 @@ switch(val) { //used inside a function
   default: //else
     ...
   }
+  
+Conditional operators
+function compare(a,b) {
+  return (a>b) ? "a is greater"
+  : (a==b) ? "a equals b"
+  : "b is greater";
+  }
+
+Objects (complex) //key:value
+var animals = {
+  "cat":{
+    name: "Bob",
+    "year born": 2020,
+    food: ["fish", "beef"]
+    },
+  "dog":{
+    ...
+    },
+  ...
+}
+
+Lookup
+animals["cat"].hasOwnProperty("age") == false
+for (var i = 0; i < animals.length; i++) {
+  return animals[i].food;
+}
+
+
 
 
