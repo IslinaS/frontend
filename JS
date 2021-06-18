@@ -63,6 +63,19 @@ for (var i = 0; i < animals.length; i++) {
   return animals[i].food;
 }
 
+ES6
+var VS let VS const
+- let prevents overwriting keywords and creates new objects when new values are assigned (as in var)
+- const declares read-only variable
+
+REST and SPREAD
+const getSum(...args) => {
+
+
+destructuring assignment
+- swap two elements directly with [a,b] = [b,a]
+
+  
 
 
 
