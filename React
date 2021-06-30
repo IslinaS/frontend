@@ -1,0 +1,20 @@
+React.js is a javascript API that uses JSX elements to allow scripting in an integrated manner.
+JSX is a syntax extension of JS that creates DOM elements rendered by the React DOM as HTML. It compiles to javascript before running on a web browser.
+  import React from 'react';
+  import ReactDOM from 'react-dom';
+  
+  ReactDOM.render(
+    <h1 id='element'>This is an element.</h1>,
+    document.getElementById('app')
+  ); //appends h1 element to app html file
+  
+  const element1 = (
+    <ul>
+      <li>item 1</li>
+      <li>item 2</li>
+    </ul>
+  );
+  
+  
+      
+  
