@@ -1,3 +1,11 @@
 URL: Uniform Resource Locator
   Remote URL: HTTPS, on browsers
   Local URL: run locally on computer
+
+REST APIs
+REST: REpresentational State Transfer
+A REST api request made by the client retrieves json data (key-value pairs) from server.
+
+Examples:
+- graph.facebook.com
+- https://developers.facebook.com/docs/instagram-basic-display-api
