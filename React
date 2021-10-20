@@ -15,6 +15,12 @@ JSX is a syntax extension of JS that creates DOM elements rendered by the React 
     </ul>
   );
   
+  class ClassName extends React.Component {
+    constructors
+    states setState()
+    methods
+    }
+  
   
       
   
